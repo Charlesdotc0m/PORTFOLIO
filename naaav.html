@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHARLIE PORTFOLIO</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-image: -moz-linear-gradient();
+            background-color: rgb(10, 10, 10);
+        }
+        .navbar-custom {
+            background-color: #1d1919;
+            
+            margin-bottom: 3px;
+           
+        }
+        .navbar-custom .nav-link {
+            color: rgb(255, 255, 253);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .navbar-custom .nav-link:hover {
+            background-color: #fca103;
+            color: black;
+            transform: scale(1.1);
+        }
+        
+        .form-control {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .form-control:focus {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+        }
+       
+     
+        .btn-move-right {
+            position: relative;
+            transition: left 0.3s;
+        }
+        .heading {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .paragraph {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg-dark">
+        <nav class="container navbar navbar-expand-lg navbar-custom navbar-dark fixed-top bg-secondary pt-2">
+            <a class="navbar-brand text-white pt-2" href="#"><h3 class="display-5 text-warning  align-items-center pl-4">CHARLIE'S PORTFOLIO</h3></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home  </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services  </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us  </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container form-container bg-dark text-white py-5">
+    
+        <div class="container bg-dark text-white px-4 pt-5">
+            <img src="C:\Users\User\Downloads\WhatsApp Image 2025-02-20 at 15.16.25.jpeg" class="mx-auto d-block rounded-circle " alt="logo"height="350px" width="350px">
+        <h1 class="display-5 pl-1 pt-4 pb-3 text-warning">ABOUT ME</h1><p class="lead p-2 pl-4">I'm an enthusiast,self motivated,reliable,responsible and
+            working person.I am a mature team worker and adaptable to all
+            challenging situations.I am able to well both in a team
+            environment as well using own initiative.I am able to work well under
+            pressure and adhere to strict deadlines</p>
+            <h1 class="display-5 pt-4 pl-1 text-warning">PROFILE</h1>
+  <p class="lead p-4">I'm a freelancer and i have an
+    ability to develope front end using the HTML,
+    javascript,css & bootstrap.i'm a electronic engineering student
+    trying to place in a software field with confidence
+    i try my best in software field</p>
+    <h1 class="display-5 text-warning">TECHNICAL SKILLS</h1>
+    <dl class="pt-4 pl-4">
+      <dd>-BOOTSTRAP</dd>
+<dd>-HTML</dd>
+<dd>-CSS</dd>
+<dd>-JAVASCRIPT</dd>
+ </dl>
+ <h1 class="display-5 pt-3 text-warning">PROGRAMMING SKILLS</h1>
+          <dl class="pt-4 pl-3 pb-3">
+      <dd>-HARDWARE ANALYST</dd>
+      <dd>-PROJECT MANAGEMENT</dd>
+      <dd>-TOOL DEVELOPER</dd>
+      <dd>-LEADERSHIP</dd>
+      <dd>-FRONTEND WEBDEVELOPING</dd>
+          </dl>
+        </div><hr style="background-color: white; height: 2px;">
+       
+        
+        <div class="container my-5">
+            <div class="row pl-5">
+                <div class="col pb-4">
+            <div class="card bg-warning text-dark" style="width: 250px;height: 340px;pb-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFYCm3caVmXejHYNWgZwZs2yPDvaD6J5jVxQ&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">FRONTEND DEVELOPER</h5>
+                    <p class="card-text">I'm a freelancer and i have an ability to develope front end using the HTML, javascript,css & bootstrap</p>
+        </div>
+        </div>
+        
+    </div>
+    <div class="col pb-4">
+        <div class="card bg-warning text-dark" style="width: 250px;height: 340px;">
+            <img src="https://divyapalatblog.com/wp-content/uploads/2018/07/800px_colourbox17660239.jpg?w=800" class="card-img-top height: 300px;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">ACHIEVEMENTS</h5>
+                <p class="card-text">Worked with the Bastorians and tech solution for 30 days as a intern.</p>
+    </div>
+    </div>
+    </div>
+    <div class="col pb-4">
+        <div class="card bg-warning text-dark" style="width: 250px; height: 340px;">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExMWFRUVFRYVFRUXFxUVFhcWFhUWGBUXFxUYHSggGBolGxUVITEhJSorLi4uFx8zODMtNygtLisBCgoKDQ0OGhAPFS0dFR0tKystKy0tLS0rLSstLS0tLS0tLSstKy0tKystLSsrLS0tNy0tKysrLS0tLS0tLS03Lf/AABEIAKkBKgMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgADBAUGBwj/xABKEAACAQIEAwQHBQYBBw0AAAABAgMAEQQSITEFQVEGEyJhBzJxgZGhsRRCcsHwIzNSgtHh8SQlYnOSssIIFRc0Q1R0lKKks7TS/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAaEQEAAwEBAQAAAAAAAAAAAAAAARFBMVEh/9oADAMBAAIRAxEAPwDw+9EVBRoJUo1AKCWpgKgpqAKKIWhH1qwCgXLTBaIo0ACUwWiGFQuOtAhjFRVG1NmFxUbQ0AC0bUO8FTvBQMOlNlpO9WiJhQExCgooiYVHHMUEC1CKBk8jQ7zyNBFqFRStN5UBLflQQi1S1TMelArbaghFKaJJ6ULnpQAigahY9KFzQS1S1S1A0AqEVNaBNBLVKl6lAKlSpQGjRoE0E1ogGoopxQAKaOXzog1BQECiIxQtT0EWMUyQKai1MPz9tA6QjWj3Y6UYjv7aY0FYUUbUWSp3XSgAAo5adUprUFAhHSjFa21XWqtls3kfrQNaoRTZaYLQUK16JFOIgKBoEIqpzY+VWv7qUkHQ86AUDSqcpsfdTM460FbGoDRMgpTIKCGkNEyClLigNA1B5UC1ADUoZ6meglShmoZqA1KlC9A1Dc1LUyigYGpekK0wjoGzCjnFARirVjHSgTvBQMorI7odBTrF5UGL346VbhRpfzrIyUVSgxmkKk6Uv2ryrYBKmG8V9PVNqDAXEE7L8jTiR/4flWao8TLba3zq0R0GuDSfw0f2nT6Vs1iqSAKLnQVRre7kPL6VlTRXHnyrIUXNrH4GrO7oNS8EnUfGl+zy/o1tzHQEdQakYV+bfU1Dgz/F8qyYFKkoTe2x8jtVzLQa44TzofZrczWcy1jSE5gORGntoA6X3qswCrHYjfbrRIoMf7OPOlVFrJIqmROY35+dAMg6UCopla9Q0CWoEUzLekUUAK0pqw0poFoUSKlAtSiaFA1ECoKhoF3NXCq4hzqwUDCnWqs1OmtBfnAFKZDv05dR51FXnVy0FiEEXp1FJGltquVaoZVqcPj1f8Vd36MeGQzvMs0SSBVRlzKCQSSDY/CtinG+EJNLEMAc0cjxuQkViyMQSPHcjTnQedCH9ofNR8jTT2QXPuHM16tB2e4bxFHbCfscRGNiW8JYHJ3kWYgqSDqtjpvyrh/R7w9ZeKjDYuJJP36SRuAwV4lYm3Qhktccr9aDm/to5L8TSSYq4tkB8if7V0vpI4dHHxNsLhokTSBI4o1C5nkVSB5ks9rnlYV2h7J8K4Ph0m4mftEz3yx6spYC5WKK4DAaXd9LkercCoPJcPL4h9xdb3YsD5AW0rPMsf8AEPgf6V3MXbbs7Ke7k4X3SnTvFhiFvMmJg4/lua5Ht+uAgxPdYFmaMRq7OXMilpFDqqE65QuU3JJu5B2oMF5UA9YHTbWsb7Vzy/P+1en8T4RhV7NjHDCw/aDDF+17tQ13nSJm6Bsp3661qeH9tOBJBCk/DmmlSCBJZRFFZpEhRXPicE+JSL21teg89x0mzgarv+HnVsc4avde0GC4PhMHFjX4ajRzd3lREjzjvYy63zMBoBY615n247ScLlwojwWDOFl7+N2uiLnjEc6kBkZtmddD1HTQOXdKoliB92tdN6KeHHG49IzGrwxq0kwdcy5LZQNeZZlt7zyrs/S72Yhhwa4nBQxIsclpjGouVPgBzDkr6EdW8qDyEwj/ABuahFY5xT7gbf6Nx7wdDXq3pT4Lh8Pw+CSDDxRySyxKzIihrGJ3IB5aqNuWlB5eRSkVRaToaBjfp86AyJzHvFRWp4UI3pZIumlACwpCwodwetDufOghIoFhU7nzqd0KAZhQo5BUAoFJoZqYihaga9BzUCUypQOosKAkFMBRWEUC96OlMMR5UwgXpViwr0FBV9q8hR+2nyrMwoU7Aab6VnoALbC+g9tUadcW52HwWrFnl5K3+z/augjivWTFheZ5b3pRTpfQmZDNic4YDu47XFvvNe1cbxido8XjLWu2Knsd7DvW+ddZ2H7WYTCSSmVyoIVVIR3LEEkmyjRdt9T065OJxPZyR3lcTFndnYj7WAWclmNgbDUnaoKfQhG5x8rC5UYZg55ZmliKX8zlf4Gs3gaA9qpWW2XNMNP4hhrP/wCoMPberP8ApAwGCgaLhmHIY6944IXNawZi7F5GHIGw8+Vcz2A4xFhseuKxMhACys7ZXdi0ilQLKDqS+Yk/Wg6TjSKO1cTuRlzwDX+JsOFj9+cqB5kVh/8AKAwMjY6FySIvswEfNc4kfvABfezRk+RWtT264pDi+IPicPIShWN72eNlMSKtvEAQbqLEfxDnXXYL0jYLGYdcNxeDMQL96illJFxnAQ54pLE6pfc6i9qDj+z3ZHhM2FhkxXETh5mEmePwtos0iq1rHLdVGnlfnV3b/wBHOF4fFh5I55Ze/ayk5FUKFzX0FyTdfnW/jPZaM5l7+Y6kRkYuxty8eUEeRNq0PpI7eLjxBFFhhFFA10Zm/aWy2y5FORVtbTxbCxFB2vEogeySqdu6gH/u468NOFTp8zXrWN7XYJuBDhwmPfiKMfupshZJVlKh8v8Ao5b7X8q8ulX50HtvpNX/ADFgh54W3/l3rxUjrXpvbbthgsTwuDBwzM0sPcXvFKobu4zG2VmUD719bbVwXCFw5nj+1SZIAQ0xCs5ZAQcoVLkFhpfYXJvewoPYfRx2dmwnCpJoIwcXik7yMGygAgjDhibaAMZCN/ERWV6PuzuKhwc2Cx6AxsWyHvFclJQe9Ukag5rtfq56VwHpS7eJi5cOuCmfukRrhRLCQxI8TaAMuUKFtf721xfQdm+0E0GLgmbEPlSQGTO8rqYzpJ4QSTdS1tN7UGHx/hzYaebCyevGxW+wdbXRx+JSpt516Z6Wo78OwnlNF/8AXlrmvSnxnh/ECk2GmPfKDE4aKVQ6X8JzZbXQlvaGPMAHpeK9seD4mGOGd5HEeVhljxC+JUKXuoBIszfGg8aLnMVItbbzHI07LXpUkPZ9wGyynob4n+tcf2nbBmZBgv3PdAG+fMJO8lzBs/ivbLvytVGgYUhFZLLVZWgx20pMw61ZPHsenKhmB/pUFZFKac0poKiLVKc1WRaghoUalAwphS1M1BYtOJcuuhI1sdRp16iqL0DtQeppwPDldIYwSNCVuAbaaV5tiA6FkbRlJVhYaEaGvRuL8U+zrE59Uyqr/hKPc+4gH3Vh9pOzBxE8UkeiyELMRyAFw46kqCPbl60DejngKPA0k0SsHe8eZfFlAsTfoTsPI9a1npBRYcVHHEioojD+EDVmLqSTz0A+ddjhuKKMXHgogAscRZ7bCwUIg9gNz7Vrj/Sb/wBdX/w6f770GnwWJnd0SM3dmVVBVbFiQAD4dr17hi+zULwOiwQmQocuZfB3mXwkrzXNY2rz30TcFzytimHhiukd+cjDxH3Kbfz+VdLwXiuMPE5C+HnGGlHdITG4VBHfu3NxpmJe/TvBfag8kdShKkEMCVYc1INiD53Fq7f0T8NixGLeLEQxyp3DOM6ElWR4wMrHYEObjnYdKu9KvZ/usQuJjS6Yg5XANrTAXuTyDKCfajE71Z6G3H/OLqvq/ZZOviPewa68un9zQdZx3EcBwU3cT4ZA4UPZYWcWbY3HsqzhJ7P42X7NHAvePcgZJYixCkm0ikWYC53vvVva7hfBpMSXx0wSbKgIMrp4dcl1GnWtpw7sfw3hxGMVHBjHhctLLlzjLmCi4GjEZiLAE6ig819IfZleHTLHASyT2dc5ByBGt3ZJHiXMQbnkFBvYk9r2t7PYNODti4sJAsxggcMUBy94YwxAJtcKxt5gVwfb/tV9vmMyKViij7qIEoWJkJzM2ViVuuaw/wBAX3Ir2zDYWCXhkKYnL3H2fDtJmbIuVFjfxNcWW6i/K16K8a9G3YCXGSRYlggwySMH7xMwlUAZkQE2YG5GbZSp3ItW39IeO4Vh8+HwWCw0k6X7yQoGjhsQpABNnkBIFthzuQRXovHoTxHhjrw3Ed1mUrEyDIrCMlTHsCinLa4tyOo0Pz7HCRiJ0dWjYd7dGBzKVbOVIzDUBevvoO39CvBsPjDMuJgimCojoWUFlJd0YZr7eBTauk4rJ2dw80mHkwkYeEqrgQkgZlDCx56H51rvQAbNikvqlv8AZY3X7x5563PaHC8AONmGJkIxUjIkq58SLsRGUHh8I2j2oNbJxTs0tr4VNQDpCToRfYH5Vq+B8c4UpxpxoSVWx+JfDBUMh7l8viXLshuLdbeRtjdvcHw8QQHhzq6o03eEOXYBjFbMzyKQoZtBqLyG25v50wyn6bfkSKive+zHCuB44O2Gwcf7PLmzRMhGfNa1/wAJ+XWtPxLiXZ6CSSJ8MA8LsjgQSMAymx1HK/Oh6B/VxhGxMBA8Omk19B8Lne1ebdu1y8QxZBGuJmOhBI/aHccqqU67stDg8ZxnFIIYZcM0KyQgpogjTDooQaFLZmUr1XqK0PpTwEcGN7rDwpGiRo2VI9CzEklzrm2Gh/Os70KAHiLsNP8AJZbjoe8h28vpt0vi+mQ/5ybn+wiuOvr0HonC+y+DfDRuMNCjywxuSqCwd4wb5djYnY14h2o4NPgpyk251DgeGRdg6/mNxXsvaHismF4RBPCQrpHhLZhdSCIwVYcwQSOvmDrWPDisJxvCFWGV19ZbgyQyEaMp+8p1sdmFwQDcAjlfRjgIcTDL30UchSQBWKjNZlvYnnrXETxSTYpoolGZpWREUBVFmIHsAAuT5E16n6PuAy4EYmGWx/aqyML5XXKQCL+zblXG9ggp4nNfdVxBX8XeqP8AdLUG3HZ3BYGISYphI212uVJ/hSIb+8E+yta3F+EucphVR1MIUfFNRWD6UJm+2KrHwrEuUctWbMR7xb3CsXhXAsNLBHLJiRCzZxZmQZsrkAgMRy091BX2qwOFh7vuLnvBn0bMgTUAg76nz+6a0FdJxnszFDAZ1naQADLYKVOY2GoO1zfSuUz0FppDS97QMlBCKlRWqZaCUbUKNARTKhPhGpOgHmdBS0wX9a0HddtPFhlykHLIpaxBsMri/suR8aXs92qWLCOHILwgCMfxg6IPcdD5AVxKpz0HuP5Cq5jrbT3UHZ+j+RmxhldgbxuXc2Hicjcnqb6eVZPb7CNNjY+7sc8KqhuLFlZywvysCCfKuMSG/T3gn6A00clswstyQNugGutB63xjFnh3DlTCspdcil1yNlLG8kpU3vc3GoNs46VyMPbziH/egPbHB/8AkVysMQOt1B6m/P8ACCayji8o9ZCdlyh9D1OYcvr7DQe24crxHhgjxLqkksdiSVUhwfBLlvoDZWy9GI2rkfRLg3g4jL3oCd3A0bksuUM8kRQBr2a4RiLchXmneJz1Psvc+ZNRZ1AJtrqBoNL7n8vf5UHfemK54hnFijQx5WBBBK3D2I5jw/Ku49EXaHvsK+DxAukKKqvIVytFICO6N98oGg/hIB218FWcDZfyq04oZRdAd7Ek78+f4R7qDuvSB2cbCS5IiJIHYmJ1yE3b1YWyallAaxO4b229U7WqH4GYAVaQQYYFBkkb9k0JeyZvEQEbS/Kvm2TG3NxYbDbkAABr5AfClbGaAXOgsLWHMttbqxor1jsx2llwGIhyrK8P2eCOaJIjYlgZAykGyuDL7wSOhHb+kTsvBiz9qgkj+0pG6ugaMidTGygEMQM4uLE6EaHkV+csRj2ka5Z2JsNWJuAAoHwFrVm8CTxliPWSUedzFIPzFDXs3oXiEM+Ldx3SlIo7uscN3VpcwCg6kAjXzra9puwGDxmKbFHH927FTZTDYFdjc630FeOzcPVklTu5lJiLAvb1kdCNL6jKX89dq5ybhEyi5SwHM26gbe0j41CnvSejLBBmYY9QGDKVy4bLlbltsNCL81FeXdvcPDhMZLh48xERjUHLGoa8SMWOQC5Ja+3kNK5aDg8rglcuhsdQLXuRvbex+FZw7PzPZmZm0ynVDbIqgLmZ9gpS3kPKqfXrPoDxAWPFu5CI7QhC7KuYoJc9gTc2zJr5+Vec+kTEMvEcWCo8U0jI11IZGcsrAgagg9fLlatDLwnKbMTf3fUX51ZFwxSPCCx53YDbXa2ul+fI9KDuPQdJ/l0sjEKi4dlLEgAM8kZUXJ3IRvgaxvTVmPEQ6arJDGqFbMGKlgQLcwSNPMVxTYVRsPPc/CiqKDfKpHMHn+utEezduLnggjBBkjhwxdQylh3fd59AeVje3SvHeA8WngnSaJyGXQmxYFTa6uPvKdNPhY2pJIVFiALHUGwv7D0I/WhFAMQbg2NB7xwTjyYmBJj+yLXujECxBsbXtdbjQ9K8VGImwmOaZBdklcleqsTdTbkVO/mDWMMr+sbW5ZVNvfvasZrKfCbj9cqD0/HfYuKRqC+WQC4FwkyXtcZT6y/EdDWkk9H8K6viHyjyVbD8RJHyriBIr+t9B/SqyB5UHa9pMfhRhfsschcgKFyeO2UgjM23Llr5Vw3djzq0W/X+FLQV5KlqahQS9S9CpQS9C9TIagSgbOOlQPQ7ujkFBDJUh1I0uBViYfyv7/71eshUW28gT9L2oGJUDRRflv8AEgk1jGJtTYnXoTfzq6JCT194HzNZkPeLtlHU5tvMhW2AoNaY2tfIfbZh+flQ7tzyrYYicsfIbXNz5k+f9hVV6DGTCueg/IDUmiMKf4qy2Nhbm2/s3A9+/wAKSgTD4DMbXY6bDfyA9pIHvrYS8NiC/u5VIG7jLc7aD4n+WhhFFtWy310yHbQaMw8/lVmJbQAMTfW5CjQXA9Ukb5ufMUVhrhE6fWt1gOHx50buZRd0JOT9nbMCfu7WvpWrTUjW3n/jW4w4IdSJlaxvYLACBYi/gdjzt01qLHTx6OGCYlQZQQdRDrJcaZdvrWt4Y37VL8zb4i351l4eIfsz3qls0dlyYa98y7sspf32v1tWnsSBl0bTKdiDy+dEdKhBsFjxK5ldSZC5Uho2sAepbL7awpZ1e6LHPfJclyzAZhdL66ZnCWJ30oYKVbRsJTe6HLkw67kAi6yFuZ+77RWBKixyZxIb9MqWJRjlBOe4HhXW3PbqXF3DJrFhdrFbgKSCSni3BB9XvBv96tjIjLfNHOikZvH3i3ZRfcyXJyZuY0Fae/dvca5GuPMA6fEVs5ZkUWM8hK6hSbqdPD90ixUj40IY3EMMwGfu3Ucy1ze+27sf8KwkYA66jmPKtioisVedxbYalSu6mwU8raVq6ItxKak5QisbABgwB+oB86xDppb21mRFSLPmsByNvYbWN7fQ+VYjEEeY0PmOR939KqIklrg6qd/yI8x/alkW31B6jrS3pkceqduR/hPX2daBL21FZCYgsMoC32sbi48v1/bGcW0pDQLPEV101PJgfpTpOSLX+N7VZnz6MW9g5+46XrFZbEj8xt7jvQWNEd9PdekzmpmolR+rUC6/q9KalSgFCialARRpQalA16YJ7KW1MGNA7MQNbfKkgJO/xpWNW4VHtdfyoMgoygkOmg2uCfdpUaU2AJv1O3u9gqueVstmNyeXQdffSrQWCmitudhqfPoPeaqvVkmgA5cz1P8Abb40AzX1POmjFyBSCsjCRMb5VuToBe34t/LTfnQZ8cth+4JubBmQW1sEFyvsrFkYXNtth7BoPkBWTPLKP3i5dLizsdTcDd2HU/y1g3oq6B1DXYXF9Ra/yuPrWd38ZBKR5bI33LXJGn3m2selYvDjJcmJSxA1sXFr7aoynkedZbyym4ZTn8IClpG5i2rOSL5uRFCFgxERsFhym4ObuwNtTrc9K1UB1X2j61tJZZ/+0Qqtm+/IdcjnZpCOXStQp2oM3CYgLGydxdlJ8eUXHMG+W/zqzHPbNaDNZs2bIp0OtiSh+tVo8yyFVUWcMvrEA5WI/jHnV5lk+4F8SKTdgNhbmQPrQavNex2uB8tPyrZYR2KqEi7w2sbJE58Fh9+NzbKUHIaVqi7XOa178iD9PZWVg2NmUZb6MMwBXTQ3DC2zE/y0Gc2dSC0LA3C5GWPMQxJSwaMjkw0UeqKxcfE987RNGNBqABf+VVA+HWrRG2xaCzDLaMxbkjLdU31AF/M1QuHZh62HW/I9zG2h52UEUGLmtqP15Hyq3Eys1nuNBoWfxMNdCHbW2oso+oqjyquLEMCQGKi+hBIN+Y0Ox094FBJBbUbHby8qS9WTw5CNSVcXDZWUXG1r/rWsdb633FEWq1xY/wAp/I+X099VtR3pjrpz5eY6e2gqNBxf29evtqGhQC49lClbe9OLfo0E0/V6Q0aFBKlQ0KCUQago3oDepQploFc1bAbDUD8yarme/Oip0FAZTf3mrAaqflViigthB3G+w9v9v6UgNQtrp8x86FA21WJimX1QNrahW566MKWIEm4F/wCvL51S0RG4t7RQXSYxmU3te99Ao20GigDmfjWI0hPOrVy621FV5h0oMzhKuWsiK5I2ZUbbpmraCKT1RGuYt6tktcZrjLbLayVrMJimFlEKHpePMx5++s2bEFVU5V11sQCuoubL/MbUWFzYeVNXjRRlfULEpv3b80F9r/CteayIsTmzeFBZGPhVVO1txy1rGNEZeKjlvnAFg7WNlO7G+4udb71k5JPBlKhrMpvlt4Sb6nTlyrGxAlIYKgK33yKTqAfWIvzFOJ37pXsAyueQ5r/Da2xovrDx0To13Km/Qg7eymw8lmBO2x/Cws3yJpcbPK4Ga5AN/VAA5bgDrVKHSiNvL3zAq2KjGpBV5SDobarbyvS5pC3hnEYYFvXZUzXswFr3Nx8KkMk7W7piAVBIuBqPCTrzNgffSSxzKCWazC7gg3PIPqNtwaKx8ZCV1Lq5NzcEnnrcn2/OsBY9NedbSTDzOAWkDD1gC99x/Q1rzRDQYUNpcjppfxb9eY19xqp4zc30YaEeymB67HQ0zQWXMGuRuLHT3/rQ0FcoAOnzt+RpAKYr8LH5DakbpQMxv7efn50lQVGoARVYp70rigawpTQVqJoBUqVKCUaFEUBApsvnQWmNBVJVgqpqtFAG3FWA29/0qs707/kKA3ohtLUtQUGTFKFtoTz3K+zUa+fvrFe5JNud9yd/bV029FPVPtH0agpjQ60ndGsqiNj+uYoEgcqwax06MQfjW0fFKhHhLaEaMU5gbjyWtZHuPaPrWVxDdfwf8bUVkfbFYNZSvgbd2e5JUc9udYNWYTaT/V/8aVVRGa2MCkjKTcKfXdPuKNhvtvQwc10kAU6MjAXZtr3191ST1h+CP/41q3A7y/6sf8VTFjqrE8UzKV7tRcEXuxIvz1Na6M710WG9UewfSueb1zVRmYeaynwqxU5gGGYWaytp7QlD7eSQSiAA65Vy3BBBB8rGhgt3/AfqtdHiNj7D9KDnjiXTwBVNuqgn3kVjSEnUi2vSw91bXDfvD/q1+i1TxP1ffRWsNEObWBt11tcf2oUE39x/3TRAKkaGkIppaWSgFAGpUNBDQqCpQIRRBqNQFA16FShQf//Z" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">DIGITAL MARKETING</h5>
+                <p class="card-text">We also helps to grow youur business for a wide range and increase your sales from wide range from india to worldwide</p>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container my-5">
+    <div class="row pl-5">
+        <div class="col-sm-4 pb-4">
+    <div class="card bg-warning text-dark" style="width: 250px;height: 340px;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8wlS8EMi6tbjxMEAESpjDOEKXSAQi8meN_Q&s" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">GRADUATION</h5>
+            <p class="card-text">I'm studying Electronics and communication engineering in dhanalakshmi srinivasan engineering college in perambalur</p>
+</div>
+</div>
+
+</div>
+<div class="col-sm-4 pb-4">
+<div class="card bg-warning text-dark" style="width: 250px;height: 340px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB6MZvFnPDMiZ3atvdKYchzBrsTh_-vdOjsA&s" class="card-img-top height: 300px;" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">SCHOOLING</h5>
+        <p class="card-text">I've completed my schooling at USP matric higher secondary school in kodikurichi,Tenkasi.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card bg-warning text-dark" style="width: 250px; height: 340px;">
+    <img src="https://st5.depositphotos.com/1010234/73581/i/450/depositphotos_735810960-stock-photo-white-figure-standing-out-crowd.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">WHAT MAKES ME UNIQUE</h5>
+        <p class="card-text">my peronal physiology when it comes to design a website always wanted to receive a happy smiles from them</p>
+</div>
+</div>
+</div>
+</div>
+<hr  style="background-color: white; height: 3px;"
+
+    
+    
+       <footer class="footer">
+        <center>
+        <h2 class="text-warning">CONTACT US</h2>
+        <p class="text-muted text-warning">Please fill out the form below to get in touch with us. We will respond to your inquiry as soon as possible.</p></center>
+   
+   <div class="container bg-dark text-white">
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" class="form-control" id="dob">
+            </div>
+            <div class="form-group">
+                <label for="department">Department</label>
+                <input type="text" class="form-control" id="department" placeholder="Enter your department">
+            </div>
+            <button type="submit" class="btn btn-primary btn-move-right">Submit</button>
+        </form></div>
+    </div>
+    
+       
+    
+    
+    <div class="justify-content-center"><center>
+        <ul class="list-inline pb-1 pt-3 bg-dark list-unstyled">
+            <button class="btn btn-warning">
+            <li class="list-inline-items">          
+            <a href="https://www.linkedin.com/in/charles-otieno-0b0b3b1b1" target="_blank">LinkedIn</a></button>
+            <button class="btn btn-warning">
+            <a href="https://www.facebook.com/share/19wbPksQsk/">Facebook</a></button>
+            <button class="btn btn-warning">
+            <a href="https://www.instagram.com/ch4rlieee._.7?igsh=MTkxazJjeDY4bmxyNQ==">Instagram</a>
+          </li></button></ul></center>
+      
+            <center>
+            <div class="container">
+                <span class="text-muted pb-3">© 2025 Charles's Portfolio. All rights reserved.</span>
+            </div></center>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+       
+
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var name = document.getElementById('name').value;
+            var dob = document.getElementById('dob').value;
+            var department = document.getElementById('department').value;
+            var submitButton = document.querySelector('.btn-move-right');
+
+            if (!name || !dob || !department) {
+                submitButton.style.left = (parseInt(submitButton.style.left, 10) || 0) + 100 + 'px';
+            } else {
+                alert('Form submitted successfully!');
+            }
+        });
+    </script>
+</body>
+</html>
+
